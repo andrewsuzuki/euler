@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Run Python tests
+python3 test_python.py
