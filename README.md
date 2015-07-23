@@ -1,21 +1,18 @@
 # euler
 
-[Project Euler](https://projecteuler.net/) solutions by Andrew Suzuki, written in Python, Ruby, Javascript, Clojure, Java, and C.
+These are my [Project Euler](https://projecteuler.net/) solutions. I've written them using an assortment of Python, Ruby, Javascript, Clojure, Java, and C. Enjoy!
 
 ## Testing
 
-Run
+Run the following to test all solutions. Or, look in the test directory for the language-specific tests.
 
 ```
 $ cd test
 $ ./test_all
 ```
 
-to test all solutions in every language found in solutions/.
-
 ## Solutions
 
-To look up a solution under a language, look in the solutions/ directory. To look up a language under a solution, see below.
+To look up a solution under a language, simply look in the solutions/ directory. To look up a language under a solution, see below.
 
-* 001
-    * Python
+* 001 - Python, Clojure, Java, C, JS, Ruby 
