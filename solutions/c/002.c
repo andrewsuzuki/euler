@@ -8,13 +8,14 @@ int main(void) {
 }
 
 int solution(void) {
-    int n;
+    int nl, n, new_n;
     int sum = 0;
 
-    for (n = 0; n < 1000; n++) {
-        if (n % 3 == 0 || n % 5 == 0) {
+    for (nl = 1, n = 2; n < 4e6; nl = n, n = new_n) {
+        if (n % 2 == 0) {
             sum += n;
         }
+        new_n = n + nl;
     }
 
     return sum;

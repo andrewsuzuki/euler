@@ -6,3 +6,6 @@ def solution():
         if (x % 3 == 0) or (x % 5 == 0):
             sum += x
     return sum
+
+if __name__ == "__main__":
+    print(solution())

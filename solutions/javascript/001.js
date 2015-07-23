@@ -10,4 +10,6 @@ function solution() {
     return sum;
 }
 
-console.log(solution());
+if (require.main === module) {
+    console.log(solution());
+}
